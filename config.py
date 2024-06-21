@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Heya {first} 👋 I'm @Adaarfilter_bot !\n\n⚠️📌 ᴡᴇ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ᴀʟʟ ᴛᴏʀᴇɴᴛ ꜰɪʟᴇꜱ ꜰɪʀꜱᴛ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ, torrentൽ വരുന്ന എല്ലാ ഫയലും ആദ്യം തന്നെ ഞ്ങ്ങൾ upload ചെയ്യുന്നതാണ്, हम हर टोरेंट फाइल को पहले अपलोड करते हैं\n\n⚠️📌 ᴡᴇ ᴡᴏɴ'ᴛ ᴘʀᴏᴠɪᴅᴇ ʏᴇꜱꜱᴍᴀᴀ ꜱᴇʀɪᴇꜱ ᴀɴᴅ ᴛʜɪꜱ ʙᴏᴛ ᴡᴏɴ'ᴛ ᴘʀᴏᴍᴏᴛᴇ ᴘᴏʀɴᴏɢʀᴀᴘʜɪᴄ ᴄᴏɴᴛᴇɴᴛꜱ, ഞങ്ങൾ yessma സീരീസും അശ്ലീല വീഡിയോകളും promote ചെയ്യുന്നത് അല്ല, हम येस्मा सीरीज प्रदान नहीं करेंगे और यह बॉट अश्लील सामग्री को बढ़ावा नहीं दे सकता है\n\n https://t.me/+vg2zU33d_1c2YmQ1 👈 Mᴏᴠɪᴇ RᴇQᴜᴇꜱᴛ Hᴇʀᴇ , മൂവി ഇവിടെ ചോദിക്കുക, यहां फिल्म के लिए पूछें..!!!\n\n<u>Powered by ഉർവശി തീയറ്റേഴ്‌സ്™</u></b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Hello {first}</b>\n\n<u><b>♦️ READ THIS INSTRUCTION ♦️</b></u>\n\n <i>🗣 നിങ്ങൾ ചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ താഴെ കൊടുത്തിട്ടുള്ള ചാനലിൽ ജോയിൻ ചെയ്യണം. ജോയിൻ ചെയ്ത ശേഷം വീണ്ടും ഗ്രൂപ്പിൽ പോയി ആ ബട്ടനിൽ അമർത്തിയാൽ നിങ്ങൾക്ക് ഞാൻ ആ സിനിമ പ്രൈവറ്റ് ആയി അയച്ചു തരുന്നതാണ്..😍\n\n</i>  <i>🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈\n\n</i>  <u><b>👇JOIN THIS CHANNEL & TRY</b>👇</u>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
